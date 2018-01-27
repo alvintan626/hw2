@@ -1,3 +1,5 @@
+//original
+
 background(255);
 colorMode(HSB);
 noStroke();
@@ -6,4 +8,43 @@ while(true) {
   background(0, 0, 255, 0.1);
   fill(random(360), 255, 255);
   ellipse(random(width), random(height), random(20, 40));
+}
+
+
+//orange-red 
+// molten lava droplets in all sizes
+
+background(255);
+colorMode(HSB);
+noStroke();
+
+while(true) {
+  background(0, 0, 255, 0.1);
+  fill(random(0, 30), 255, 255);
+  ellipse(random(width), random(height), random(20, 40));
+}
+
+// blue
+// rain drop, drop top, Smokin' on cookie in the hotbox
+background(255);
+colorMode(HSB);
+noStroke();
+
+while(true) {
+  background(0, 0, 255, 0.1);
+  fill(255, 255, random(210, 240));
+  ellipse(random(width), random(height), 20);
+}
+
+// bright green
+// spring time
+
+background(255);
+colorMode(HSB);
+noStroke();
+
+while(true) {
+  background(0, 0, 255, 0.1);
+  fill(random(90, 120), 255, 255);
+  ellipse(random(width), random(height), 20, 50);
 }
