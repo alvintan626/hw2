@@ -1,0 +1,42 @@
+//a
+
+function setup() {
+  createCanvas(340, 340);
+}
+
+function draw() {
+  line(170, 170, random(width), random(height));
+}
+
+
+//b
+// top right quandrant
+
+function setup() {
+  createCanvas(340, 340);
+}
+
+function draw() {
+  line(170,170, random(170,340), random(0,170));
+}
+
+//c
+//slope of 
+
+function setup() {
+  createCanvas(340, 340);
+}
+
+function draw() {
+  var x2 = random(170,255);
+  var y2 = (170 - ((x2-170)*2))
+  line(170,170, x2, y2);
+}
+
+
+//d
+
+
+
+
+
