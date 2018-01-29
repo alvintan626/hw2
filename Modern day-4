@@ -1,0 +1,8 @@
+// Write code that makes an image in the style of Mondrian by drawing lines and colored rectangles
+//build big to small
+
+function setup() {
+  createCanvas(340, 340);
+}
+
+rectangle(0,0,340,340)
