@@ -1,0 +1,83 @@
+//Alvin Tan Mondrian
+
+// Here are some commands to get you started:
+//  line(10, 10, width-10, height-10);   -- draw a diagonal line
+//  line(10, height-10, width-10, 10);   -- draw another
+//  colorMode(HSB);                      -- start coloring with Hue, Saturation, Brightness
+//  stroke(0, 255, 255);                 -- stroke with a nice red color
+//  noFill();                            -- and don't fill
+//  rect(10, 10, width-20, height-20);   -- draw a rectangle
+
+// creation of map outline
+createCanvas(300, 350);
+strokeWeight(2);
+fill(255,255,255)
+rect(0,0,350,350)
+strokeWeight(1);
+
+//use of the 3 colors rgb
+colorMode(HSB);		// blue
+fill(255, 204, 100);
+rect(160, 10, 70, 70);
+rect(160, 200, 70, 70);
+
+fill(255, 204, 0);	//some color`
+rect(5, 155, 100, 100);
+
+fill('red');
+rect(45, 0, 60, 30);
+rect(80, 260, 70, 70);
+rect(5,80,40,70);
+rect(160, 124, 20, 70);
+
+fill('yellow');
+rect(200, 80, 30, 30);
+rect(80, 70, 70, 70);
+rect(0, 0, 45, 30);
+
+fill('#fae');
+rect(5, 35, 38, 47);
+ellipse(250,10,5);
+ellipse(260,10,5);
+arc(255, 25, 20, 20, 0, PI + QUARTER_PI, CHORD);
+
+// lines
+strokeWeight(10);
+line(155, 0, 155, 350);
+strokeWeight(5);
+line(45, 0, 45, 150);
+strokeWeight(3);
+line(230, 0, 230, 350);
+strokeWeight(10);
+line(0, 35, 0, 350);
+strokeWeight(7);
+line(0, 33, 150, 33);
+strokeWeight(2);
+line(80,36, 80, 150);
+strokeWeight(2);
+line(80,260, 80, 350);
+strokeWeight(2);
+line(160,110, 350, 110);
+strokeWeight(2);
+line(160,125, 350, 125);
+strokeWeight(8);
+line(155, 198, 350, 198);
+strokeWeight(10);
+line(0, 255, 155, 255);
+strokeWeight(5);
+line(0, 153, 150, 153);
+
+//extra spooky popup face
+
+fill('white');
+ellipse(45,200,90);
+noStroke();
+fill('#fae');
+ellipse(65,190,40);
+ellipse(25,190,40);
+arc(50, 220, 50, 25, 0, PI, PI + QUARTER_PI);
+
+noStroke();
+fill('white');
+arc(25, 190, 25, 12, 0, PI + QUARTER_PI, TWO_PI);
+arc(65, 190, 25, 12, 0, PI + QUARTER_PI, PI);
